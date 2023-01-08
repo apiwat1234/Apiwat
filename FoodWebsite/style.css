@@ -1,6 +1,7 @@
 html , body{
     background: white;
     font-family: 'Chakra Petch', sans-serif;   
+
 }
 .menu{
     background-color: #333;
@@ -19,7 +20,6 @@ a{
     font-size: 50px;
 }
 .food1{
-    width: 85%;
     background-color: wheat;
     text-align: center;
     border-radius: 30px;
@@ -31,10 +31,11 @@ div>h2{
     text-align: center;
 }
 .egg{
-    width: 1000px;
-    height: auto;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
     border: 3px;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
 }
 p{
