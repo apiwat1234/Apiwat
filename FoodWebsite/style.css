@@ -31,10 +31,11 @@ div>h2{
     text-align: center;
 }
 .egg{
-    width: 1000px;
-    height: auto;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
     border: 3px;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
 }
 p{
