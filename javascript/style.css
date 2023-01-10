@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 225, 225);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 98%;
+    margin: 20px;
+
+}
+.top{
+    text-align: center;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 60%;
+    border: 1px groove white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: white;
+    object-fit: cover;
+    animation-name: bar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes bar{
+    form {
+        text-shadow: 15px 10px 10px salmon;
+    }
+    to{
+        background-color: gray;
+        text-shadow: 2px 2px 2px salmon;
+    }
+}
+}
+.form{
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+.btn{
+    font-size: 1.3rem;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(134, 134, 237);
+    
+}
+input#weight{
+    border: 1px groove gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+input#height{
+    border: 1px groove gray;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.result{
+    font-size: 20px;
+    text-align: center;
+  
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    background-color: #333;
+    height: 20vh;
+    width: 50vh;
+}
+.menu:hover{
+    background-color: black;
+    text-decoration: underline;
+    width: 55vh;
+}
+a{
+    text-align: center;
+    padding: 97px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.box{
+    border: 1px groove wheat;
+    border-radius: 10px;
+    width: 15%;
+    height: 15%;
+    background-color: black;
+    animation-name: ap;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes ap{
+    form {
+        height: 15%;
+    }
+    to{
+        height: 50%;
+        background-color: #333;
+    }
+}
+.name{
+    text-align: center;
+    padding: 15px;
+}
